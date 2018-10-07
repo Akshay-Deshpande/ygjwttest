@@ -3,6 +3,7 @@ package com.myorg.dao;
 import java.util.List;
 
 import javax.persistence.TypedQuery;
+import javax.transaction.Transactional;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Repository;
 
 import com.myorg.model.User;
 
+@Transactional
 @Repository
 public class UserDAOImpl implements UserDao {
 	

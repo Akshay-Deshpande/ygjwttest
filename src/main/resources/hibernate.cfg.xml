@@ -10,8 +10,9 @@
         <property name="hibernate.id.new_generator_mappings">false</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">myorg123</property>
+        <property name="hibernate.connection.password">rakesh123</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/test</property>
+        <!-- <property name="hibernate.connection.url">jdbc:mysql://mysql2.000webhost.com/id7370025_rakesh_test</property> -->
         <!-- <property name="hibernate.hbm2ddl.auto">create</property> -->
          
         <property name="hibernate.c3p0.min_size">5</property>
